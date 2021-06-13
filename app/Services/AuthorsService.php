@@ -12,6 +12,8 @@ class AuthorsService
     * @var string
     */
     public $baseUri;    
+
+    public $secret;
     
     public function __construct()
     {

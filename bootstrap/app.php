@@ -32,6 +32,7 @@ $app->configure('database');
 // register services inside the config in order to use
 $app->configure('services');
 $app->configure('auth');
+
 /*
 |--------------------------------------------------------------------------
 | Register Container Bindings
