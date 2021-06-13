@@ -1,12 +1,12 @@
 <?php
 // configuration files of the guzzle services, user defined config
 return [
-    'users1' => [
-        'base_uri' => env('USERS1_SERVICE_BASE_URL'),
-        'secret' => env('USERS1_SERVICE_SECRET'),
+    'books' => [
+        'base_uri' => env('BOOKS_SERVICE_BASE_URL'),
+        'secret' => env('BOOKS_SERVICE_SECRET'),
     ],
-    'users2' => [
-        'base_uri' => env('USERS2_SERVICE_BASE_URL'),
-        'secret' => env('USERS2_SERVICE_SECRET'),
+    'authors' => [
+        'base_uri' => env('AUTHORS_SERVICE_BASE_URL'),
+        'secret' => env('AUTHORS_SERVICE_SECRET'),
     ],
 ];
